@@ -1,0 +1,54 @@
+
+.header {
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 5%;
+    color: #fff;
+}
+
+.info-input input[type="text"],
+.info-input input[type="password"],
+.info-input input[type="radio"] {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.remember label {
+    font-weight: bold;
+    margin-left: 10px;
+    color: #fff;
+    padding-left: 40%;
+}
+
+.forget a {
+    display: inline-block;
+    margin: 10px 0;
+    color: fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 40%;
+}
+
+.button button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #20df7f;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    width: 80%;
+    max-width: 400px;
+}
+
+.button button:hover {
+    background-color: #005299;
+}
